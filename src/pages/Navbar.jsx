@@ -1,6 +1,7 @@
 import { Button, Typography } from '@mui/material'
 import React from 'react'
 import BasicMenu from '../component/Meni'
+import { Link, Outlet } from 'react-router-dom'
  
 export default function Navbar() {
   return (
@@ -32,7 +33,7 @@ export default function Navbar() {
              
             
         }}> 
-        <Button >Home </Button> 
+          <Link>  <Button >Home </Button> </Link>
             
             <Button >Events </Button>
             <Button >Teams </Button>
@@ -43,6 +44,7 @@ export default function Navbar() {
         <div style={{flex:2,alignContent:"flex-end"}}>
             <BasicMenu/>
         </div>
+        <Outlet/>
      </div>
   )
 }
