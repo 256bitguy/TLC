@@ -6,14 +6,15 @@ export default function SimplePaper() {
   return (
     <Box
       sx={{
-        height:"200px",
-        width:"200px",
-        background:"#121231"
+        height:"400px",
+        width:"400px",
+        background:"#121231",
+        
       }}
     >
        
       
-      <Paper elevation={3} />
+      <Paper elevation={6} />
     </Box>
   );
 }

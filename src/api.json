@@ -1,0 +1,667 @@
+{
+    "intro":{
+        "images_list":[],
+        "news_list":{},
+        "announcements":[{}],
+        "highlights":{
+            "recents":[],
+            "past":[]
+        },
+        "message_by_users":[{}]
+
+    },
+    "list_of_events":{
+        "name_of_list":[
+            {
+                "name":"Speech Competition",
+                "about":" this Competition basically focused on delivering speech in the audience",
+                "image_link":"alt me abhi kuch nahi"
+            },
+            {
+                "name":"Speech Competition",
+                "about":" this Competition basically focused on delivering speech in the audience",
+                "image_link":"alt me abhi kuch nahi"
+            },{
+                "name":"Speech Competition",
+                "about":" this Competition basically focused on delivering speech in the audience",
+                "image_link":"alt me abhi kuch nahi"
+            }
+        ]
+    },
+    "positions":{
+        "list_of_positions":[
+            {
+                "post":"General Seceratary",
+                "name":"Vivek Raj",
+                "image_link":"alt me abhi kuch nahi",
+                "message":"hello there i wish literary club will do well",
+                "profile":[
+                    {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }
+                ],
+                "academics":{
+                    "department":"Btech",
+                    "college":"UIET"
+                }
+            },
+            {
+                "post":"General Seceratary",
+                "name":"Vivek Raj",
+                "image_link":"alt me abhi kuch nahi",
+                "message":"hello there i wish literary club will do well",
+                "profile":[
+                    {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }
+                ],
+                "academics":{
+                    "department":"Btech",
+                    "college":"UIET"
+                }
+            },
+            {
+                "post":"General Seceratary",
+                "name":"Vivek Raj",
+                "image_link":"alt me abhi kuch nahi",
+                "message":"hello there i wish literary club will do well",
+                "profile":[
+                    {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }
+                ],
+                "academics":{
+                    "department":"Btech",
+                    "college":"UIET"
+                }
+            },
+            {
+                "post":"General Seceratary",
+                "name":"Vivek Raj",
+                "image_link":"alt me abhi kuch nahi",
+                "message":"hello there i wish literary club will do well",
+                "profile":[
+                    {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }, {
+                        "image_in_event":"alt me kuch nahi",
+                        "image_link":"alt me abhi kuch nahi"
+                    }
+                ],
+                "academics":{
+                    "department":"Btech",
+                    "college":"UIET"
+                }
+            }
+        ]
+    },
+    "about_us":{
+        "about_bio":"this message is going to be display over the webpage and it contains the informarion about the page"
+    },
+    "gallery":{
+        "year":[
+            {
+                "2020":[
+                    {
+                        "january":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "february":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "march":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "april":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "may":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ]
+                    }
+                ],
+                "2021":[
+                    {
+                        "january":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "february":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "march":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "april":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "may":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ]
+                    }
+                ],
+                "2022":[
+                    {
+                        "january":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "february":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "march":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "april":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ],
+                        "may":[
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            },
+                            {
+                                "image_about":"desription of image",
+                                "iamge_link":"source image",
+                                "image_date":"time stamp of image"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "users":[
+        {
+            "post":"General Seceratary",
+            "name":"Vivek Raj",
+            "image_link":"alt me abhi kuch nahi",
+            "message":"hello there i wish literary club will do well",
+            "profile":[
+                {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }
+            ],
+            "academics":{
+                "department":"Btech",
+                "college":"UIET"
+            }
+        },
+        {
+            "post":"General Seceratary",
+            "name":"Vivek Raj",
+            "image_link":"alt me abhi kuch nahi",
+            "message":"hello there i wish literary club will do well",
+            "profile":[
+                {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }
+            ],
+            "academics":{
+                "department":"Btech",
+                "college":"UIET"
+            }
+        },
+        {
+            "post":"General Seceratary",
+            "name":"Vivek Raj",
+            "image_link":"alt me abhi kuch nahi",
+            "message":"hello there i wish literary club will do well",
+            "profile":[
+                {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }, {
+                    "image_in_event":"alt me kuch nahi",
+                    "image_link":"alt me abhi kuch nahi"
+                }
+            ],
+            "academics":{
+                "department":"Btech",
+                "college":"UIET"
+            }
+        }
+        
+    ],
+    "developer_section":[
+        {
+            "name":"vivek raj Srivastava",
+            "details":"about the developer",
+            "website_link":"link of the website"
+        }
+    ]
+}

@@ -6,7 +6,7 @@ function BorderBet({item}) {
   return (
     <div style={{
         height:"50px",
-        width:"100vw",
+        width:"98vw",
         display:"flex",
         flexDirection:"row",
         textAlign:"center",

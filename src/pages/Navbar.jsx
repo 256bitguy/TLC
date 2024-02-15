@@ -9,7 +9,10 @@ export default function Navbar() {
         {
             display:"flex",
             flexDirection:"row",
-            width:"100vw"
+            width:"100vw",
+            
+             
+           
         }
      }>
        

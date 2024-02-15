@@ -2,6 +2,8 @@ import First from "./pages/First/First"
 import { useRoutes } from "react-router-dom";
 import Second from "./pages/Second/Second";
 import Third from "./pages/Third/Third";
+import Fourth from "./pages/Fourth/Fourth";
+
 
 const Routes=()=>{
     return useRoutes(
@@ -17,6 +19,10 @@ const Routes=()=>{
             {
                 path:"/third",
                 element:<Third/>
+            },
+            {
+                path:"/fourth",
+                element:<Fourth/>
             }
         ]
     )
