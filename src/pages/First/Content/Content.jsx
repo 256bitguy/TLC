@@ -28,7 +28,7 @@ export default function Content() {
              justifyContent:"center",
              
     }}>
-              <img src='https://www.instagram.com/reel/CsK4bDfuDuh/'/>
+              <img src='https://github.com/256bitguy/portfolio/blob/master/hand.jpg?raw=true'/>
         </div>
 
     </div>
