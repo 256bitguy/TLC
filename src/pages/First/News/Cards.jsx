@@ -20,23 +20,10 @@ export default function BasicCard() {
         News
       </Typography>
       <CardContent sx={{ height: '100%', overflow: 'hidden' }}>
-        <marquee direction="up" style={{ display: 'block', height: '100%' }}>
+        <marquee direction="right" style={{ display: 'block', height: '100%' }}>
         <ul style={{
           fontSize:"20px"
         }}>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
-          <li>sdfdfasdf</li>
           <li>sdfdfasdf</li>
           <li>sdfdfasdf</li>
           <li>sdfdfasdf</li>

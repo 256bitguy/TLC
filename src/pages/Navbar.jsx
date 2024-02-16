@@ -22,7 +22,7 @@ export default function Navbar() {
             flexBasis:"20vw",
             alignContent:"flex-start"
         }}> 
-            <Typography variant="h6" gutterBottom>
+            <Typography variant="h4" gutterBottom>
        The Literary Club
       </Typography>
         </div>
@@ -36,11 +36,14 @@ export default function Navbar() {
              
             
         }}> 
-          <Link>  <Button >Home </Button> </Link>
+          <Link   to="/">  <Button >Home </Button> </Link>
+          <Link   to="/second">  <Button >Teams </Button> </Link>
+          <Link   to="/third">  <Button >Gallery </Button> </Link>
+          <Link   to="/third">  <Button >Abouts </Button> </Link>
+            
             
             <Button >Events </Button>
-            <Button >Teams </Button>
-            <Button >About </Button>
+            
             <Button >Join us </Button>
         </div>
 
