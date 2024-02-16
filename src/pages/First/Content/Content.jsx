@@ -28,7 +28,7 @@ export default function Content() {
              justifyContent:"center",
              
     }}>
-              <img src='https://github.com/256bitguy/portfolio/blob/master/hand.jpg?raw=true'/>
+              <img src='https://github.com/256bitguy/TLC/blob/main/public/images/vivek.jpg?raw=true'/>
         </div>
 
     </div>
