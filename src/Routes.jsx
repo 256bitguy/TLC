@@ -1,7 +1,7 @@
 import First from "./pages/First/First"
 import { useRoutes } from "react-router-dom";
 import Second from "./pages/Second/Second";
-import Third from "./pages/Third/Third";
+import Gallery from "./pages/Gallery/Gallery";
 import Fourth from "./pages/Fourth/Fourth";
 
 
@@ -17,8 +17,8 @@ const Routes=()=>{
                 element:<Second/>
             },
             {
-                path:"/third",
-                element:<Third/>
+                path:"/gallery",
+                element:<Gallery/>
             },
             {
                 path:"/fourth",

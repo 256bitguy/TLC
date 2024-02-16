@@ -10,11 +10,12 @@ function BorderBet({item}) {
         display:"flex",
         flexDirection:"row",
         textAlign:"center",
-        background:"#FFE663",
+        background:"#3192e5",
         border:"2px solid black",
         justifyContent:"center",
         marginTop:"15px",
-        textDecoration:"underline"
+        textDecoration:"underline",
+        color:"white"
     }}>
         <Box style={{
             textAlign:"center"

@@ -15,9 +15,9 @@ function Years() {
             year.map((item)=>{
                 return(
                     <Button style={{
-                        height:"90px",
-                        fontSize:"30px",
-                        width:"150px",
+                        height:"25%",
+                        fontSize:"80%",
+                        width:"10%",
                         background:"#FFE663",
                         borderRadius:"100px"
                      }}> {item}</Button>  

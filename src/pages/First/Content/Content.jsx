@@ -1,6 +1,7 @@
 import { Button, Typography } from '@mui/material'
 import React from 'react'
 import SimplePaper from '../../../component/SimplePaper'
+import { Outlet ,Link} from 'react-router-dom'
 
 export default function Content() {
   return (
@@ -13,7 +14,9 @@ export default function Content() {
     }}> 
         <div style={{
             flexBasis:"50vw",
-            gap:"15px",marginTop:"20px"
+            gap:"15px",marginTop:"20px",
+            display:"flex",
+            flexDirection:"column"
         }}>
               <Typography variant="h2">Welcome To the Offical Website of</Typography>
               <Typography  variant="h3">The Literary Club</Typography>
@@ -25,12 +28,13 @@ export default function Content() {
              justifyContent:"center",
              
     }}>
-               <SimplePaper/>
+              <img src='https://www.instagram.com/reel/CsK4bDfuDuh/'/>
         </div>
 
     </div>
    <div>
-            <Button>About us....</Button>
+           <Link to="/fourth"><Button>About us....</Button></Link>
+           <Outlet/>
    </div>
    </>
   )

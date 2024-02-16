@@ -4,8 +4,7 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
- 
-import IconButton from '@mui/material/IconButton';
+ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
  
  
@@ -36,7 +35,7 @@ export default function ImageBox() {
       <CardMedia
         component="img"
         height="194"
-        image=" https://images.pexels.com/photos/16176110/pexels-photo-16176110/free-photo-of-woman-s-photography.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        image="public/images/smya.jpg"
         alt="Paella dish"
         style={{
           borderRadius:"170px",

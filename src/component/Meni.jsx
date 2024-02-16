@@ -21,6 +21,9 @@ export default function BasicMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+         style={{
+          color:"white",textAlign:"right"
+         }}
       >
         Dashboard
       </Button>
