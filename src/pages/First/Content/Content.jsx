@@ -18,7 +18,7 @@ export default function Content() {
             display:"flex",
             flexDirection:"column"
         }}>
-              <Typography variant="h2"> Welcome To the Offical Website of</Typography>
+              <Typography variant="h2">  sdffdebsite of</Typography>
               <Typography  variant="h3">The Literary Club</Typography>
               <Typography variant="h3" >(Csjmu University -Kanpur)</Typography>
         </div>
