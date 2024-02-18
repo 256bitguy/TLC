@@ -36,15 +36,14 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             The Literary Club
           </Typography>
-          <div style={{ flex: 2, alignContent: 'flex-end' }}>
+          {/* <div style={{ flex: 2, alignContent: 'flex-end' }}>
             <BasicMenu />
-          </div>
+          </div> */}
         </Toolbar>
       </AppBar>
 
-      <Drawer anchor="left" open={isDrawerOpen} onClose={toggleDrawer} sx={{
-        width:"200px"
-      }}>
+      <Drawer anchor="top" open={isDrawerOpen} onClose={toggleDrawer} 
+       >
         <List>
           <ListItem  component={Link} to="/">
             <ListItemText primary="Home" />

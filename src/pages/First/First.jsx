@@ -6,6 +6,7 @@ import Recents from "./Recents/Recents"
 import About from "./About/About"
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Footer from "../Footer"
 
  
 function First() {
@@ -32,6 +33,7 @@ function First() {
      <BorderBet item={"RECENT HIGHLIGHTS"}/>
      <Recents image={imageh}/>
      <News/>
+     <Footer/>
      </div>
   )
 }

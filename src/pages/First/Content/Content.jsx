@@ -7,43 +7,45 @@ export default function Content({ image }) {
       <div
         style={{
           display: 'flex',
-          flexDirection: "column",
+          flexDirection: "row",
           marginTop: "10px",
           padding: "20px",
-           
-          // Corrected inline media query
-          '@media (min-width: 800px)': {
-            flexDirection: "row",
-          }
-        }}
+          background:"#fbfddf"
+           }}
       >
         <div
           style={{
-            flex: "1 1 100%",
-            gap: "15px",
+              padding: "15px",
             marginTop: "20px",
             display: "flex",
             flexDirection: "column",
+            flex:"3",lineHeight:"3.2rem"
           }}
         >
-          <Typography variant="h2">Website of</Typography>
-          <Typography variant="h3">The Literary Club</Typography>
-          <Typography variant="h3">(Csjmu University -Kanpur)</Typography>
+          <Typography variant="h1" style={{
+            color:"#711f72",fontWeight:700,fontFamily:"poppins"
+          }}> Welcome to the official Website of</Typography>
+          <Typography variant="h2" style={{
+            color:"#726fbc",fontWeight:700,fontFamily:"poppins"
+          }}>The Literary Club</Typography>
+          <Typography variant="h3" style={{
+            color:"#25a5be",fontWeight:600,fontFamily:"poppins"
+          }}>(Csjmu University -Kanpur)</Typography>
         </div>
         <div
           style={{
-            flex: "1 1 100%",
+            flex: "1",
             display: 'flex',
             justifyContent: "center",
             marginTop: "20px",
-            border:"2px solid black"
+             
           }}
         >
-          <img src={image} style={{ maxWidth: "auto", height: "auto" }} alt="club" />
+          <img src="/images/logo.jpeg" style={{ maxWidth: "300px", maxHeight: "300px" }} alt="club" />
         </div>
       </div>
       <div>
-        <Link to="/fourth"><Button>About us....</Button></Link>
+        <Link to="/fourth"><Button style={{fontSize:"25px"}}>About us....</Button></Link>
         <Outlet />
       </div>
     </>

@@ -30,16 +30,18 @@ function Post({item}) {
           
     }}>
         <img 
-        src='https://images.pexels.com/photos/16176110/pexels-photo-16176110/free-photo-of-woman-s-photography.png?auto=compress&cs=tinysrgb&w=600&lazy=load'
+        src='public/images/mani2.jpeg'
         style={{
             width:"300px",
             height:"300px",
             borderRadius:"180px",
             padding:"10px",
+             
+            objectFit:"cover"
                }}
           />
-        <Typography variant='h5'> Vivek Raj Srivastava</Typography>
-        <Typography variant='h5'> B.Tech</Typography>
+        <Typography variant='h4'> Mani Shukla</Typography>
+        <Typography variant='h5'> BA Program</Typography>
     </Card>
   </Box>
          )}
