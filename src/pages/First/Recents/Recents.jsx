@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageBox from '../../../component/shared/ImageBox'
 
-function Recents() {
+function Recents({image}) {
   return (
     <div style={{
       margin: "50px",
@@ -9,9 +9,9 @@ function Recents() {
        
       justifyContent: "space-evenly",
     }}> 
-      <ImageBox />
-      <ImageBox />
-      <ImageBox />
+      <ImageBox item={image}/>
+      <ImageBox item={image}/>
+      <ImageBox item={image} />
       
       {/* Add a media query for smaller screens */}
       <style>

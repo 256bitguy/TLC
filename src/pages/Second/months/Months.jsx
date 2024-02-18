@@ -11,7 +11,7 @@ function Months() {
       flexDirection:"row",
       margin:"40px",
     }}> 
-      {/* Media query for hiding buttons and displaying dropdown */}
+      
       <style>
         {`
           @media (max-width: 800px) {

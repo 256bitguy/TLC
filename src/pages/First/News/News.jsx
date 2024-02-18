@@ -11,8 +11,9 @@ function News() {
         justifyContent:"space-around"
     }}> 
      
-       <Cards/>
-       <Cards/>
+       <Cards heading="News"/>
+       <Cards heading="Announcements"/>
+        
      
     </div>
   )

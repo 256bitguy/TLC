@@ -19,7 +19,8 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function ImageBox() {
+export default function ImageBox({item}) {
+  console.log(item);
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -35,7 +36,7 @@ export default function ImageBox() {
       <CardMedia
         component="img"
         height="194"
-        image="public/images/smya.jpg"
+        image={item}
         alt="Paella dish"
         style={{
           borderRadius:"170px",
