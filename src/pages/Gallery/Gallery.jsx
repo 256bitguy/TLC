@@ -8,7 +8,10 @@ import About from './about/About'
 
 function Gallery() {
   return (
-    <div>
+    <div
+    style={{
+      background:"#fbfddf"
+    }}>
         <Navbar/>
         <Post item={"Secratary"}/>
         <About/>

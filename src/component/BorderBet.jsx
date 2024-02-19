@@ -15,7 +15,7 @@ function BorderBet({item}) {
         justifyContent:"center",
         marginTop:"15px",
         textDecoration:"underline",
-        color:"white"
+        color:"primary"
     }}>
         <Box style={{
             textAlign:"center"

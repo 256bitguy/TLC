@@ -46,7 +46,7 @@ export default function Navbar() {
        >
         <List>
           <ListItem  component={Link} to="/">
-            <ListItemText primary="Home" />
+            <ListItemText primary="Home" variant="h3"/>
           </ListItem>
           <ListItem  component={Link} to="/gallery">
             <ListItemText primary="Teams" />

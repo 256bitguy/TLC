@@ -1,4 +1,4 @@
-import { Box, Card, Paper, Typography } from '@mui/material'
+import { Box, Card, Paper, Typography,Button } from '@mui/material'
 import React from 'react'
 
 function Post({item}) {
@@ -10,15 +10,18 @@ function Post({item}) {
         justifyContent:"center",
         alignItems:"center",
       margin:"10px",
-      borderRadius:"15px"
+      borderRadius:"15px",
+      background:"#fbfddf"
     }}
   >
-    <Typography variant='h3' 
+    <Button
+    background="primary"
     style={{
-        background:"#FFE663",
-        padding:"15px",margin:"10px"
-    }}>   
-    {item}</Typography>
+      height:"100px",
+      fontSize:"40px"
+    }}>
+      Secretary
+    </Button>
     <Card style={{
         width:"400px",
         height:"400px",
@@ -30,7 +33,7 @@ function Post({item}) {
           
     }}>
         <img 
-        src='public/images/mani2.jpeg'
+        src='public/images/soumya.jpg'
         style={{
             width:"300px",
             height:"300px",
@@ -40,8 +43,8 @@ function Post({item}) {
             objectFit:"cover"
                }}
           />
-        <Typography variant='h4'> Mani Shukla</Typography>
-        <Typography variant='h5'> BA Program</Typography>
+        <Typography variant='h4'> Soumya Mishra</Typography>
+        <Typography variant='h5'> BJMC</Typography>
     </Card>
   </Box>
          )}

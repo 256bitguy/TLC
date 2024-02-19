@@ -1,50 +1,41 @@
-import { Typography } from '@mui/material'
+import { Typography ,Button, Avatar} from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
-
+import { Link } from 'react-router-dom';
+ 
 function Footer() {
   return (
     <div style={{
         display:"flex",
         flexDirection:"column",
-        background:"blue",
+         background:"#fbfddf",
         color:'white',
         height:"60vh",
-        alignItems:"left"
+        alignItems:"left",justifyContent:"space-evenly"
     }}>
-        <div> 
-            <Typography>logo</Typography>
-            <Typography>theme</Typography>
+        <div style={{width:"100vw",border:"2px solid black", display:"flex",justifyContent:"flex-start",flexDirection:"row"}}> 
+ <img src='/images/logo.jpeg' width="150px" height="auto" borderRadius="30px"/>
+            <Typography style={{
+                color:"#711f72",
+                fontSize:"30px",
+                textAlign:"center"
+            }} >Akalpit 2.0</Typography>
         </div>
-        <div> 
-             <Typography variant='h3' style={{fontSize:"20%",fontStyle:"underline"}}></Typography>
-             <div style={{display:"flex",flexDirection:"row",width:"30vw",height:"10vh"}}>
-                
-             <Box><Typography variant='h3'>Top Links</Typography></Box>
-             <Box >
-                
-                    <li>home</li>
-                    <li>About</li>
-                    <li>Events</li>
-                
-                </Box>
-                <Box>
-                
-                    <li>home</li>
-                    <li>About</li>
-                    <li>Events</li>
-                
-                </Box>
-             </div>
+        <div style={{width:"100vw",border:"2px solid black",display:"flex",justifyContent:"flex-start",flexDirection:"row"}}> 
+
+             <Typography variant='h3' style={{fontSize:"20%",fontStyle:"underline"}}>
+                Top Links
+             </Typography>
+            
         </div>
-        <div>
+        <div style={{width:"100vw",border:"2px solid black"}}>
             <Typography variant='h3' style={{fontSize:"80%"}}>Contact Us</Typography>
             <Box>
                 <Typography>The literary club, CSJM univeristy, kalyanpur kanpur</Typography>
                 <Typography>67vivekraj@gmail.com</Typography>
             </Box>
         </div>
-        <div>
+        <div style={{width:"100vw",border:"2px solid black"}}>
             <Typography variant='h3' style={{fontSize:"30%"}}>Connect Us</Typography>
             <Box style={{display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
                 <li>insta</li>

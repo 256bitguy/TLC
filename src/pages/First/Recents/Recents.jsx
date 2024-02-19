@@ -6,7 +6,7 @@ function Recents({image}) {
     <div style={{
       margin: "50px",
       display: "flex",
-       
+       background:"#fbfddf",
       justifyContent: "space-evenly",
     }}> 
       <ImageBox item={image}/>

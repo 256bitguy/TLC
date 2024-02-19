@@ -8,7 +8,8 @@ function About() {
       padding:"10px",
       margin:"5px",
       width:"90vw",
-      alignSelf:"center"
+      alignSelf:"center",
+      background:"#fbfddf"
     }}> 
         <Box >
           <Typography variant="h6" style={{

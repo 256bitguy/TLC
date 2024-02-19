@@ -6,7 +6,7 @@ import Cards from "./Cards"
 function News() {
   return (
     <div style={{
-        background:"#FFE663",
+        background:"#fbfddf",
         width:"100vw",display:'flex',
         justifyContent:"space-around"
     }}> 
