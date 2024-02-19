@@ -1,7 +1,8 @@
 import { Box, Card, Paper, Typography,Button } from '@mui/material'
 import React from 'react'
-
-function Post({item}) {
+import About from '../about/About'
+function Post({item,fun}) {
+ const {id,name,branch,post,src,message}=item;
   return (
     <Box
     sx={{
@@ -14,14 +15,7 @@ function Post({item}) {
       background:"#fbfddf"
     }}
   >
-    <Button
-    background="primary"
-    style={{
-      height:"100px",
-      fontSize:"40px"
-    }}>
-      Secretary
-    </Button>
+    <Typography variant='h4'> {post}</Typography>
     <Card style={{
         width:"400px",
         height:"400px",
@@ -33,19 +27,21 @@ function Post({item}) {
           
     }}>
         <img 
-        src='public/images/soumya.jpg'
+         src={src}
         style={{
             width:"300px",
             height:"300px",
             borderRadius:"180px",
             padding:"10px",
-             
             objectFit:"cover"
                }}
           />
-        <Typography variant='h4'> Soumya Mishra</Typography>
-        <Typography variant='h5'> BJMC</Typography>
+          
+        
+       <Button style={{fontSize:"30px"}} onClick={()=>fun({id})}> {name}</Button>
+        <Typography variant='h6'> {branch}</Typography>
     </Card>
+   
   </Box>
          )}
 

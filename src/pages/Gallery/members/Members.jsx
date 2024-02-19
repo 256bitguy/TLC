@@ -6,7 +6,8 @@ import Grid from '@mui/material/Grid';
 import Post from '../shared/Post';
  
 
-export default function GridImage() {
+export default function GridImage( {arr,fun}) {
+     console.log(arr);
   return (
     <Box 
     style={{
@@ -15,24 +16,15 @@ export default function GridImage() {
     }}>
       <Grid container spacing={2} style={{justifyContent:"center"}}>
         
-        <Grid item xs={8} md={4}>
-          <Post item={"Joint Seceratary"}/>
-        </Grid>
-        <Grid item xs={8} md={4}>
-           <Post item={"Joint Seceratary"} />
-        </Grid>
-        <Grid item xs={8} md={4}>
-           <Post item={"Additional Seceratary"} />
-        </Grid>
-        <Grid item xs={8} md={4}>
-           <Post item={"Additional Seceratary"}/>
-        </Grid>
-        <Grid item xs={8} md={4}>
-           <Post item={"Volunteer Head"}/>  
-        </Grid>
-        <Grid item xs={8} md={4}>
-           <Post item={"Anchor"}/>
-        </Grid>
+        {
+         arr.map((item)=>{
+          return(
+            <Grid item xs={8} md={4}>
+            <Post  item={item} fun={fun}/>
+          </Grid>
+          )
+         })
+        }
          
       </Grid>
     </Box>
