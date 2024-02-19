@@ -20,6 +20,7 @@ function Recents({image}) {
             div {
               flex-direction: column;
               align-items: center;
+              justifyContent:"space-around"
             }
           }
         `}

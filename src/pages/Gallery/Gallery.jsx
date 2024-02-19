@@ -5,6 +5,7 @@ import Post from './shared/Post'
 import BorderBet from '../../component/BorderBet'
 import Members from "./members/Members"
 import About from './about/About'
+import Footer from '../Footer'
 
 function Gallery() {
   return (
@@ -17,6 +18,7 @@ function Gallery() {
         <About/>
         <BorderBet item={"Core Team Members"}/>
         <Members/>
+        <Footer/>
     </div>
   )
 }
