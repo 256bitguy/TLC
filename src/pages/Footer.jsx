@@ -54,7 +54,7 @@ function Footer() {
            }}>
                 <Button>Sponsors</Button>
                 <Button>Join Us</Button>
-                <Button>Others</Button>
+                <Link to="/developers">  <Button>Teams</Button></Link>
                 </div>
 
             <div>

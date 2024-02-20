@@ -57,11 +57,14 @@ export default function Navbar() {
           <ListItem  component={Link} to="/fourth">
             <ListItemText primary="Abouts" />
           </ListItem>
-          <ListItem >
+          <ListItem component={Link} to="/events">
             <ListItemText primary="Events" />
           </ListItem>
           <ListItem >
             <ListItemText primary="Join us" />
+          </ListItem>
+          <ListItem component={Link} to="/developers">
+            <ListItemText primary="Developers" />
           </ListItem>
         </List>
       </Drawer>
