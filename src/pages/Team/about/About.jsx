@@ -1,7 +1,11 @@
 import { Box, Typography } from '@mui/material'
-import React from 'react'
+import React ,{ useContext }from 'react'
+import { TeamContext, TeamProvider } from '../TeamProvider';
 
-function About({mess,name}) {
+function About( ) {
+  const {team}=useContext(TeamContext);
+  const {first}=team;
+   
   return (
     <div style={{
       background:"#fbfddf",
@@ -21,12 +25,12 @@ function About({mess,name}) {
             fontFamily:"Times Roman"
             
           }}>
-            {mess}
+            {first.message}
             </Typography>
            <Typography variant='h5'
            style={{
             fontFamily:"Times Roman"
-           }}> -{name}</Typography>
+           }}>  </Typography>
            
         </Box>
     </div>

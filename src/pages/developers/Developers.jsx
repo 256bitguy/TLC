@@ -10,9 +10,10 @@ function Developers() {
   return (
      <Container>
         <Navbar/>
-        <Container>
-            <Box style={{height:"60vh"}}>
+        <Container style={{height:"60vh"}}>
+            <Box style={{border:"2px solid black"}}>
                 <Typography> Vivek Raj Srivastava</Typography>
+              
                 <Typography> B.Tech CSE 2024</Typography>
             </Box>
         </Container>

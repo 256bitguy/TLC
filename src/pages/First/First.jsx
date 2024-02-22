@@ -28,7 +28,7 @@ function First() {
   return (
     <div style={{
       background:"#fbfddf",
-      width:"100vw"
+      
     }}>
      <Navbar/>
      <Content image={imageh}/>
