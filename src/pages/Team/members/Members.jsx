@@ -10,7 +10,7 @@ import { TeamContext, TeamProvider } from '../TeamProvider';
 export default function GridImage( ) {
      
      const { team, updatePost, updateMembers } = useContext(TeamContext);
-    const {members}=team
+    const {members,first}=team
      console.log(team);
    
   return (

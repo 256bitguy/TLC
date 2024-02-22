@@ -37,7 +37,7 @@ const TeamProvider = ({ children }) => {
   const updatePost = (ne) => {
     console.log("Before updatePost:", team);
   
-    const chan = memcard.find((item) => item.id === ne);
+    const chan = memcard.find((item) => item.id == ne);
   
     console.log("After find:", chan);
   

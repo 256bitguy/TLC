@@ -5,7 +5,7 @@ import { Box, Card, Typography, Button } from '@mui/material';
 function Post({obj,asdf}) {
   
   const {team,updatePost,updateMembers}=useContext(TeamContext);
-   asdf==0?obj=team.first:obj;
+   asdf==0?obj=team.first:console.log("first");;
   const ida=obj.id;
   
 
@@ -42,7 +42,9 @@ function Post({obj,asdf}) {
           }}
         />
 
-        <Button style={{ fontSize: "30px" }}  onClick={()=>{updateMembers(ida)}} > {obj.name} </Button>
+        <Button style={{ fontSize: "30px" }}  onClick={()=>{
+          updatePost(ida);
+          updateMembers(ida)}} > {obj.name} </Button>
         <Typography variant='h6'> {obj.branch} </Typography>
       </Card>
     </Box>
