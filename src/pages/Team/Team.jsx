@@ -18,9 +18,7 @@ function Team() {
         }}
       >
          <Navbar/>
-        <Post/>
-        
-        
+        <Post asdf={0}/>
         <About/>
         <Members/>
         <Footer/>

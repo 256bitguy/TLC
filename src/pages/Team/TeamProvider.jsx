@@ -5,31 +5,7 @@ const TeamContext = createContext();
 
 const TeamProvider = ({ children }) => {
   const [memcard, setMemcard] = useState([]);
-  const [current, setCurrent] = useState(0);
-  const [display, setDisplay] = useState({
-    "id": 0,
-    "name": "Vivek Raj Srivastava",
-    "branch": "B Tech",
-    "post": "Secretary",
-    "message": "Hello team, there is nothing special about me.",
-    "src": "https://github.com/256bitguy/images/blob/main/store/vivek.jpg?raw=true"
-  });
-  const [list,setList]=useState([]);
-  useEffect(() => {
-    const membersData = async () => {
-      try {
-        const response = await axios.get("https://ashja2909.github.io/images/image.json");
-        const data = response.data;
-        console.log(data.members)
-        setMemcard(data.members);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    membersData();
-    setList(()=>memcard.filter((item) => item.id !== 0))
-  }, []);
-    
+  const [list, setList] = useState([]);
   const [team, setTeam] = useState({
     current: 0,
     first: {
@@ -40,33 +16,56 @@ const TeamProvider = ({ children }) => {
       "message": "Hello team, there is nothing special about me.",
       "src": "https://github.com/256bitguy/images/blob/main/store/vivek.jpg?raw=true"
     },
-    members:list,
+    members: [...list],
   });
 
+  useEffect(() => {
+    const membersData = async () => {
+      try {
+        const response = await axios.get("https://ashja2909.github.io/images/image.json");
+        const data = response.data;
+        
+        setMemcard(data.members);
+        setList(data.members); // Set the list here, not [...memcard]
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    membersData();
+  }, []);
+
   const updatePost = (ne) => {
-    const chan=memcard.filter((item)=>item.id==ne)
+    const chan = memcard.find((item) => item.id === ne);
     setTeam((prevData) => ({
       ...prevData,
-      current:ne,
-      first: chan[0],
+      current: ne,
+      first: chan,
     }));
   };
-  const updateMembers=(ne)=>{
-    const nelist=memcard.filter((item)=>item.id!=ne)
-    setMembers((prevValue)=>({
+
+  const updateMembers = (ne) => {
+    console.log("Before updateMembers:", memcard);
+  
+    const nelist = memcard.filter((item) => item.id !== ne);
+  
+    console.log("After filter:", nelist);
+  
+    setTeam((prevValue) => ({
       ...prevValue,
-      members:nelist
+      members: [...nelist],
     }));
+  
+    console.log("After setTeam:", team);
   };
- 
+  
 
   return (
     <TeamContext.Provider
-      value={ {team,
+      value={{
+        team,
         updatePost,
-         updateMembers}
-       
-      }
+        updateMembers,
+      }}
     >
       {children}
     </TeamContext.Provider>

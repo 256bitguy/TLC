@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import { Box, Card, Typography, Button } from '@mui/material';
   import { TeamContext, TeamProvider } from '../TeamProvider';
 
-function Post() {
+function Post({obj,asdf}) {
   
-  const {team,updatePost}=useContext(TeamContext);
-  const {first}=team;
-  const ida=first.id;
+  const {team,updatePost,updateMembers}=useContext(TeamContext);
+   asdf==0?obj=team.first:obj;
+  const ida=obj.id;
   
 
   return (
@@ -21,7 +21,7 @@ function Post() {
         background: "#fbfddf"
       }}
     >
-      <Typography variant='h4'> {first.post} </Typography>
+      <Typography variant='h4'> {obj.post} </Typography>
       <Card style={{
         width: "400px",
         height: "400px",
@@ -32,7 +32,7 @@ function Post() {
         alignItems: "center",
       }}>
         <img
-           src={first.src}
+           src={obj.src}
           style={{
             width: "300px",
             height: "300px",
@@ -42,8 +42,8 @@ function Post() {
           }}
         />
 
-        <Button style={{ fontSize: "30px" }}   > {first.name} </Button>
-        <Typography variant='h6'> {first.branch} </Typography>
+        <Button style={{ fontSize: "30px" }}  onClick={()=>{updateMembers(ida)}} > {obj.name} </Button>
+        <Typography variant='h6'> {obj.branch} </Typography>
       </Card>
     </Box>
   );

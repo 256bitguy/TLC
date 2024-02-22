@@ -10,7 +10,7 @@ import { TeamContext, TeamProvider } from '../TeamProvider';
 export default function GridImage( ) {
      
      const { team, updatePost, updateMembers } = useContext(TeamContext);
-
+    const {members}=team
      console.log(team);
    
   return (
@@ -19,7 +19,19 @@ export default function GridImage( ) {
         border:"2px solid black",
         padding:"10px"
     }}>
-      
+      <Grid container spacing={2} style={{justifyContent:"center"}}>
+        
+        {
+         members.map((item)=>{
+          return(
+            <Grid item xs={8} md={4}>
+            <Post obj={item} asdf={1}/>
+          </Grid>
+          )
+         })
+        }
+         
+      </Grid>
     </Box>
   );
 }
