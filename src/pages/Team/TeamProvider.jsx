@@ -14,7 +14,7 @@ const TeamProvider = ({ children }) => {
       "branch": "B Tech",
       "post": "Secretary",
       "message": "Hello team, there is nothing special about me.",
-      "src": "https://github.com/256bitguy/images/blob/main/store/vivek.jpg?raw=true"
+      "src": "https://github.com/ashja2909/images/blob/main/src/vivek.jpg?raw=true"
     },
     members: [...list],
   });
@@ -35,13 +35,21 @@ const TeamProvider = ({ children }) => {
   }, []);
 
   const updatePost = (ne) => {
+    console.log("Before updatePost:", team);
+  
     const chan = memcard.find((item) => item.id === ne);
+  
+    console.log("After find:", chan);
+  
     setTeam((prevData) => ({
       ...prevData,
       current: ne,
       first: chan,
     }));
+  
+    console.log("After setTeam:", team);
   };
+  
 
   const updateMembers = (ne) => {
     console.log("Before updateMembers:", memcard);
