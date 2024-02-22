@@ -45,7 +45,7 @@ function Post({obj,asdf}) {
         <Button style={{ fontSize: "30px" }}  onClick={()=>{
           updatePost(ida);
           updateMembers(ida)}} > {obj.name} </Button>
-        <Typography variant='h6'> {obj.branch} </Typography>
+        { asdf==0?<Typography variant='h6'> {obj.branch} </Typography>:<Typography variant='h6'> click to see details </Typography>}
       </Card>
     </Box>
   );
